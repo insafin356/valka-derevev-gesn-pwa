@@ -1,0 +1,15 @@
+{
+  "name": "gesn-tree-felling-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PWA для обследования деревьев и автоматического выбора ГЭСН 01-02-099 / ГЭСН 47-01-128",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check js/domain.js && node --check js/storage.js && node --check js/templates.js && node --check js/app.js && node --check sw.js",
+    "serve": "python3 -m http.server 8080",
+    "test:pwa": "python3 tests/pwa_static.py",
+    "test:ui": "python3 tests/ui_smoke.py",
+    "test:all": "npm run check && npm test && npm run test:pwa && npm run test:ui"
+  }
+}
