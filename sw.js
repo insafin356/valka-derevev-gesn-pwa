@@ -1,4 +1,4 @@
-const CACHE_NAME = 'valka-derevev-gesn-pwa-rnmc-visual-v2';
+const CACHE_NAME = 'rnmc-visual-review-20261116';
 const APP_SHELL = [
   './',
   './index.html',
