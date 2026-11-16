@@ -19,3 +19,7 @@ body{font-family:'Segoe UI',Arial,sans-serif;background:var(--ui-bg);color:var(-
 
 /* RNMC hierarchy and legible secondary content. */
 .page-header h1{font-size:30px;font-weight:600;letter-spacing:-.025em}.card{box-shadow:none}.stat-card{border-radius:10px}.field label,.field>span{font-size:13px;color:var(--ui-muted)}.field input,.field select,.field textarea{font-size:15px;min-height:44px}.card-header h2{font-size:17px}.button{font-size:14px;font-weight:600;min-height:44px}.app-bar{box-shadow:none}.brand-text small,.save-status{font-size:12px}.offline-status{color:var(--ui-text)}input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px}@media(max-width:640px){#visual-theme{padding:8px;font-size:12px}.brand-text strong{font-size:14px}.app-bar{gap:8px}.page-header h1{font-size:25px}}@media print{input,select,textarea{background:white!important;color:black!important}}
+
+/* Exact RNMC theme control: symbol, ghost surface, keyboard focus. */
+#visual-theme{width:50px;min-width:50px;height:45px;min-height:44px;flex:none;padding:12px 18px;border:0;border-radius:6px;background:var(--ui-panel2);color:var(--ui-text);font:600 14px 'Segoe UI',Arial,sans-serif;line-height:21px}
+#visual-theme:hover{filter:brightness(1.1)}body{font:15px/1.5 'Segoe UI',Arial,sans-serif}button{font-family:'Segoe UI',Arial,sans-serif}footer{font-size:12px;line-height:1.5}
