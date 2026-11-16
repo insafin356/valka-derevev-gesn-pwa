@@ -1,7 +1,9 @@
-const CACHE_NAME = 'gesn-tree-felling-v1.0.0';
+const CACHE_NAME = 'valka-derevev-gesn-pwa-rnmc-visual-v2';
 const APP_SHELL = [
   './',
   './index.html',
+  './visual-theme.css',
+  './visual-theme.js',
   './styles.css',
   './manifest.webmanifest',
   './js/app.js',
