@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rnmc-unified-icons-v2';
+const CACHE_NAME = 'rnmc-unified-icons-v3';
 const APP_SHELL = [
   './',
   './index.html',

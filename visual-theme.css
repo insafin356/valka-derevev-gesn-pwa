@@ -23,3 +23,11 @@ body{font-family:'Segoe UI',Arial,sans-serif;background:var(--ui-bg);color:var(-
 /* Exact RNMC theme control: symbol, ghost surface, keyboard focus. */
 #visual-theme{width:50px;min-width:50px;height:45px;min-height:44px;flex:none;padding:12px 18px;border:0;border-radius:6px;background:var(--ui-panel2);color:var(--ui-text);font:600 14px 'Segoe UI',Arial,sans-serif;line-height:21px}
 #visual-theme:hover{filter:brightness(1.1)}body{font:15px/1.5 'Segoe UI',Arial,sans-serif}button{font-family:'Segoe UI',Arial,sans-serif}footer{font-size:12px;line-height:1.5}
+/* Keep screen controls legible and print-document colors independent of theme. */
+.document-tab{background:var(--ui-panel2);color:var(--ui-text)}
+.document-tab.active{background:var(--ui-accent);color:var(--ui-ink)}
+.document-toolbar,.info-callout,.warning-callout,.success-callout{background:var(--ui-panel2);color:var(--ui-text);border-color:var(--ui-line)}
+html[data-theme="dark"]{--green-800:#79cf94;--orange-800:#f5bc68;--red-800:#ff9393}
+html[data-theme="dark"] .button-success{background:#25733b;color:#fff}
+html[data-theme="dark"] .button-danger{background:#9f2424;color:#fff}
+.paper{--blue-950:#062e55;--blue-900:#074274;--blue-800:#075b9f;--blue-700:#0b6dbb;--blue-100:#e7f2fa;--blue-050:#f3f9fd;--green-800:#25733b;--orange-800:#995100;--red-800:#9f2424;--ink:#14212d;--muted:#5f7080;--line:#d5e0e7;--line-strong:#a8bac7;--surface:#fff;--background:#edf3f7;color-scheme:light}
